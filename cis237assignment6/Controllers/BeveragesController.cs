@@ -1,4 +1,9 @@
-﻿using System;
+﻿//Jordan Koehler
+//CIS 237 TR 3:30 - 5:45
+//December 15th, 2016
+
+
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
@@ -19,6 +24,8 @@ namespace cis237assignment6.Controllers
         /// 
         /// </summary>
         /// <returns></returns>
+
+	//Sets up what we need to filter stuff.
         public ActionResult Index()
         {
             DbSet<Beverage> BevSearch = db.Beverages;
@@ -161,7 +168,10 @@ namespace cis237assignment6.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+	
 
+
+	//Actually Filters the database information
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Filter()

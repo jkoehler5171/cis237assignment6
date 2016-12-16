@@ -3,7 +3,7 @@
 ## Due 12-15-2016 (11:59pm)
 
 ## Author
-
+Jordan Koehler
 ## Description
 
 You are to create a web application using ASP.NET MVC to manage our beverage database.
@@ -132,5 +132,6 @@ the culprit, but I don't know which ones.
 | Total                                   | 100    |
 
 ## Outside Resources Used
-
+Mostly the in class, with a few searches here and there about CSS stuff and Color codes.
 ## Known Problems, Issues, And/Or Errors in the Program
+None that I can think of, works pretty well
